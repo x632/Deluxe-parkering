@@ -41,8 +41,7 @@
 
 .innehall
 	{
-	margin-left:20%;background-color: #d6d1c2; 
-	margin-right: 50%;
+	background-color: #d6d1c2;
 	box-shadow: 5 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding:1em;
 	}
@@ -62,5 +61,12 @@ a:hover
 	{
 	color: #2d00b3;
 	font-family: 'Oswald';
-    font-size: 20px;
+    font-size: 15px;
+	}
+
+	h2 
+	{
+	color: #2d00b3;
+	font-family: 'Oswald';
+    font-size: 17px;
 	}
