@@ -26,16 +26,18 @@
 	{
 	clear: both;
 	height: 66vh;
-	background-position: center center;
-	background-height:100%; width:auto; background-repeat: no-repeat
+	background-position: center;
+	background-height:90%; width:auto; background-repeat: no-repeat
 	}	
 
-.footer 
-	{
-	background-color: #99004d; 
-	height: 8vh; 
-	clear: both;
-	}
+.footer {
+  		position: fixed;
+  		background-color: #99004d;
+  		bottom: 0;
+  		height:8vh;
+  		width: 100%;
+  		clear: both;
+  		}
 
 
 .innehall
