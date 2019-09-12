@@ -25,13 +25,11 @@
 .midcol 
 	{
 	clear: both;
-	height: 72vh;
-	background-image:url("parking-lot-3339509_1280.jpg");
+	height: 67vh;
 	background-position: center center;
-	height: 72%; width:auto; background-repeat: no-repeat
+	background-height:55%; width:auto; background-repeat: no-repeat
+	}	
 
-	}
-	
 .footer 
 	{
 	background-color: #99004d; 
@@ -40,13 +38,14 @@
 	}
 
 
-div.innehall{
-			margin-left:5%;background-color: #ccccff; 
-			box-shadow: 5 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			padding:1em;
-			margin-right: 50%;
-			}
-div.innehall img {width: 300px;height:150px auto;}
+.innehall
+	{
+	margin-left:20%;background-color: #d6d1c2; 
+	margin-right: 50%;
+	box-shadow: 5 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding:1em;
+	}
+
 h1 
 	{
 	color:#99004d;font-size:60px;
