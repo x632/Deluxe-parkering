@@ -1,13 +1,13 @@
 .header 
     {
-    height:13vh;
+    height:15vh;
     background-image:url("betongpark.jpg"); 
     }
 
 .lankar 
 	{
 	background-color: #d6d1c2; 
-	height: 40px;
+	height: 30px;
 	}
 
 .lankar a 
@@ -18,15 +18,15 @@
   	text-align: center;
   	font-family: 'Noto Sans JP', sans-serif;
   	font-weight: bold;
-  	padding:8px 42px;
+  	padding:3px 42px;
   	text-decoration: none;
 	}
 
 .midcol 
 	{
 	clear: both;
-	height: 66vh;
-	background-position: center;
+	height: 72vh;
+	background-position: center center;
 	background-height:90%; width:auto; background-repeat: no-repeat
 	}	
 
@@ -36,7 +36,6 @@
   		bottom: 0;
   		height:8vh;
   		width: 100%;
-  		clear: both;
   		}
 
 
