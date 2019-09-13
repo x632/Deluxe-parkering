@@ -62,14 +62,13 @@ a:hover
 	}
  p  	
 	{
-	color: #2d00b3;
-	font-family: 'Oswald';
+    color: #2d00b3
+	font-family: 'Heebo', sans-serif;
     font-size: 15px;
 	}
 
 	h2 
 	{
 	color: #2d00b3;
-	font-family: 'Oswald';
-    font-size: 17px;
+	font-family: 'Heebo', sans-serif;
 	}
