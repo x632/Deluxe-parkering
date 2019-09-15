@@ -14,7 +14,7 @@
         <style>
             .innehall   {
 				    margin-left:10%; 
-				    margin-right: 60%;
+				    margin-right: 20%;
                         }
         </style>
 
@@ -36,8 +36,45 @@
 			<br><br>
 						<div class="innehall">
 							
-							<h2>Rubrik</h2>
-						<p>och h&auml;r blir d&aring; texten
+							<h2>Boka parkering</h2>
+						
+
+<form action="http://primat.se/services/sendform.aspx?recipient=andreas@poema.se" method="post">
+
+	Namn: <input name="name" type="text" placeholder="Your name">&nbsp;&nbsp;&nbsp;
+
+	Telefonnummer: <input name="tel" type="tel" placeholder="Telefonnummer"><br><br>
+	
+	E-post: <input name="email" type="email" placeholder="E-post">
+
+	<input type="checkbox" name="Nyhetsbrev" id="check1"/>
+	<label for="check1">Jag vill ha nyhetsbrev</label><br><br>
+
+	
+
+	Select: 	<select name="cars">
+				<option value="">Välj...</option>
+  				<option value="volvo">Volvo</option>
+  				<option value="tesla">Tesla</option>
+  				<option value="toyota">Toyota</option>
+  				<option value="audi">Audi</option>
+			</select><br><br>
+
+	Ankomst: <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2020-07-31">
+
+	Tid: <input name="time" type="time" placeholder="Select time"><br><br>
+
+	Avresa: <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2020-07-31">Tid: <input name="time" type="time" placeholder="Select time"><br><br>
+
+	
+	L&auml;mna meddelande:<br> <textarea name="message" placeholder="Meddelande" rows="4" cols="40"></textarea>
+	<button type="submit" value="Skicka">Skicka</button>
+</form>
+
+
+<br><br><br>
+
+
 						</p>	
 
   						</div>
