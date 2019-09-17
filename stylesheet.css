@@ -52,6 +52,9 @@ body{margin: 0 auto;}
 
 .innehall
 	{
+	color: #2d00b3;
+	font-family: 'Heebo', sans-serif;
+    font-size: 13px;
 	background-color: #d6d1c2;
 	border-radius: 15px;
   	border: 1px solid #000000;

@@ -7,6 +7,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
     <style>
+	input[type='text']
+	 	{ 
+	 	font-size: 13px;color: #2d00b3;
+		font-family: 'Heebo', sans-serif;
+    	}
+	</style>
+
+
+    <style>
 			.midcol {
    					 background-image: url('autos.jpg');
 					}
@@ -49,7 +58,7 @@
 
 	<label for="check1">Jag vill ha nyhetsbrev</label><input type="checkbox" name="Nyhetsbrev" id="check1"/><br><br>
 
-	&Ouml;vriga tj&auml;nster: Jag vill ha<br><br>
+	&Ouml;vriga tj&auml;nster:<br><br>
 	
 	<label for="check1">Biltv&auml;tt</label>
 	<input type="checkbox" name="Biltvatt" id="check2"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -57,28 +66,7 @@
 	<input type="checkbox" name="Polering" id="check3"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<label for="check1">Service</label>
 	<input type="checkbox" name="Bilservice" id="check4"/><br><br>
-	Om service &ouml;nskas, ange bilm&auml;rke <select name="cars">
-				<option value="">V&auml;lj...</option>
-  				<option value="volvo">Volvo</option>
-  				<option value="tesla">Tesla</option>
-  				<option value="toyota">Toyota</option>
-  				<option value="vw">Volkswagen</option>
-  				<option value="bmw">BMW</option>
-  				<option value="mercedes">Mercedes</option>
-  				<option value="skoda">Skoda</option>
-  				<option value="renault">Renault</option>
-  				<option value="peugeot">Peugeot</option>
-  				<option value="citroen">Citroen</option>
-  				<option value="audi">Audi</option>
-  				<option value="ford">Ford</option>
-  				<option value="mazda">Mazda</option>
-  				<option value="nissan">Nissan</option>
-  				<option value="kia">Kia</option>
-  				<option value="hyundai">Hyundai</option>
-  				<option value="opel">Opel</option>
-  				<option value="lexus">Lexus</option>
-  				<option value="porsche">Porsche</option>
-			</select><br><br>
+	Om service &ouml;nskas, ange regnummer&nbsp;&nbsp;<textarea name="message" placeholder="XXX-123" rows="1" cols="6"></textarea><br><br><br>
 
     
   Ankomst:
@@ -171,7 +159,7 @@
   				<option value="30">30</option>
                 <option value="45">45</option>
 			</select>
-<br>
+<br><br>
   Avresa:&nbsp;&nbsp;&nbsp;&nbsp;
     
     <select name="avresemanad">
@@ -265,7 +253,7 @@
 <br>
 <br>
 	
-	<br> <textarea name="message" placeholder="N&aring;got annat du vill meddela oss" rows="3" cols="65"></textarea>&nbsp;&nbsp;&nbsp;
+	<br> <textarea name="message" placeholder="N&aring;got annat du vill meddela oss?" rows="3" cols="65"></textarea>&nbsp;&nbsp;&nbsp;
 	<button type="submit" value="Skicka">Skicka</button>
 </form>
 
