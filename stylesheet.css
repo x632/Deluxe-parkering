@@ -8,7 +8,7 @@ body{margin: 0 auto;}
     background-position: left top;
     background-attachment: fixed;
     width:auto; background-repeat: no-repeat;
-    color:#99004d;font-size:65px;
+    color:#800000;font-size:65px;
 	font-family: 'Pacifico', cursive;
 	text-align: center;
     }
@@ -17,7 +17,7 @@ body{margin: 0 auto;}
 	{
 	background-color: #d6d1c2; 
 	height:40px;
-
+	border: 1px solid #000000;
 
 	}
 
@@ -29,7 +29,7 @@ body{margin: 0 auto;}
   	text-align: center;
   	font-family: 'Noto Sans JP', sans-serif;
   	font-weight: bold;
-  	padding:8px 42px;
+  	padding:8px 38px;
   	text-decoration: none;
 	}
 
@@ -43,10 +43,11 @@ body{margin: 0 auto;}
 
 .footer {
   		position: fixed;
-  		background-color: #99004d;
+  		background-color: #800000;
   		bottom: 0;
   		height:8vh;
-  		width: 100%;
+  		width:100%;
+  		border: 1px solid #000000;
   		}
 
 .innehall
