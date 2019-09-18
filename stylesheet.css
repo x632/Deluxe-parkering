@@ -54,7 +54,7 @@ body{margin: 0 auto;}
 	{
 	color: #2d00b3;
 	font-family: 'Heebo', sans-serif;
-    font-size: 13px;
+   	font-size: 13px;
 	background-color: #d6d1c2;
 	border-radius: 15px;
   	border: 1px solid #000000;
@@ -77,4 +77,29 @@ a:hover
 	color: #2d00b3;
 	font-family: 'Heebo', sans-serif;
         font-size: 20px;
+	}
+input[type='text']
+	{ 
+	font-size: 12px;color: #2d00b3;
+	font-family: 'Heebo', sans-serif;
+    	}
+input[type='teL']
+	{ 
+	font-size: 12px;color: #2d00b3;
+	font-family: 'Heebo', sans-serif;
+    	}
+input[type='email']
+	{ 
+	font-size: 12px;color: #2d00b3;
+	font-family: 'Heebo', sans-serif;
+    	}
+input[type='message']
+	{ 
+	font-size: 12px;color: #2d00b3;
+	font-family: 'Heebo', sans-serif;
+    }
+.valen 
+	{
+    font-size: 12px;color: #2d00b3;
+	font-family: 'Heebo', sans-serif;
 	}
